@@ -1,3 +1,5 @@
+const rootURL = "https://api.github.com"
+
 function getRepositories(){
   const req = new XMLHttpRequest();
   const name = document.getElementById('username').value;
